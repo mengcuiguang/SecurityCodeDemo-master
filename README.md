@@ -6,10 +6,9 @@
 使用方法：
 
 1、布局文件
-<com.meng.securitycodedemo.SecurityCodeView
 
-    android:layout_width="match_parent"
-    
+<com.meng.securitycodedemo.SecurityCodeView 
+    android:layout_width="match_parent" 
     android:layout_height="wrap_content"/>
     
 2、MainActivity 实现接口 SecurityCodeView.InputCompleteListener
