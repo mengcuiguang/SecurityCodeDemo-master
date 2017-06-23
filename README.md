@@ -1,6 +1,8 @@
 # SecurityCodeDemo-master
 炫酷的验证码 认证
 
+![image](https://github.com/mengcuiguang/SecurityCodeDemo-master/blob/master/test.gif )  
+
 使用方法：
 
 1、布局文件
