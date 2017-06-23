@@ -7,15 +7,15 @@
 
 1、布局文件
 
-<com.meng.securitycodedemo.SecurityCodeView 
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content"/>
+    <com.meng.securitycodedemo.SecurityCodeView 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"/>
     
 2、MainActivity 实现接口 SecurityCodeView.InputCompleteListener
 
-editText = (SecurityCodeView) findViewById(R.id.scv_edittext);
+    editText = (SecurityCodeView) findViewById(R.id.scv_edittext);
 
-editText.setInputCompleteListener(this);
+    editText.setInputCompleteListener(this);
 
     @Override
     public void inputComplete() {
